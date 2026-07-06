@@ -129,6 +129,8 @@
 }
 
 .form-input {
+  width: 100%;
+  box-sizing: border-box;
   background-color: var(--bg-input);
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-sm);
