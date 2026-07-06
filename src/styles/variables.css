@@ -1,0 +1,47 @@
+/* Import Google Font 'Outfit' for modern premium typography */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Color Palette - Premium Matte Dark Mode with Amber/Gold details */
+  --bg-main: hsl(0, 0%, 8%);         /* Matte Black (#141414) */
+  --bg-card: hsla(0, 0%, 14%, 0.6);   /* Dark charcoal with opacity for glassmorphism (#242424) */
+  --bg-card-hover: hsla(0, 0%, 18%, 0.8);
+  --bg-input: hsl(0, 0%, 12%);
+  
+  /* Primary Accent - Warm Amber Gold */
+  --primary: hsl(43, 75%, 52%);       /* Gold (#d4af37 equivalent) */
+  --primary-hover: hsl(43, 85%, 58%);
+  --primary-glow: hsla(43, 75%, 52%, 0.2);
+  
+  /* Secondary Accent - Warm Bronze Orange */
+  --accent: hsl(30, 80%, 45%);
+  --accent-hover: hsl(30, 90%, 50%);
+  
+  /* Text Colors */
+  --text-main: hsl(0, 0%, 98%);       /* Off-white */
+  --text-muted: hsl(0, 0%, 75%);      /* Warm grey */
+  --text-disabled: hsl(0, 0%, 45%);
+  
+  /* Borders and Glass */
+  --border-glass: rgba(255, 255, 255, 0.06);
+  --border-active: hsla(43, 75%, 52%, 0.45);
+  
+  /* Feedback States */
+  --success: hsl(142, 70%, 45%);
+  --error: hsl(0, 84%, 60%);
+  --warning: hsl(38, 92%, 50%);
+
+  /* Layout and Sizing */
+  --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  
+  /* Glassmorphism Settings */
+  --glass-blur: blur(20px);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
